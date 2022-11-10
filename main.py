@@ -17,4 +17,4 @@ elif response.status_code == 404:
     print("Not found.")
 
     print(response.content)
-    #response.headers['viewpoint']
+    response.headers['viewpoint']
